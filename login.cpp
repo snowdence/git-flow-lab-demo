@@ -4,7 +4,12 @@
 using namespace std;
 int login(string username, string password)
 {
-    return 1;
+    if(username == "admin" && password =="pass"){
+        return true;
+    }
+    else{
+        return false;
+    }
 }
 int main()
 {
